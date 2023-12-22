@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9ece9;
+    /* пастельний тон фону */
+    background-image: url('skripichnyi-kliuch.jpg');
+    /* зображення скрипічного ключа */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* прозорий білий фон для контенту */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d39e9e;
+    /* пастельний тон заголовка */
+}
+
+.greeting {
+    font-size: 24px;
+    color: #b97777;
+    /* пастельний тон тексту привітання */
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 18px;
+    color: #9e7b7b;
+    /* пастельний тон тексту дати */
+    margin-top: 10px;
+}
+
+.invitation {
+    font-size: 16px;
+    color: #7b5f5f;
+    /* пастельний тон тексту запрошення */
+    margin-top: 20px;
+    text-align: left;
+    /* вирівнювання тексту по лівому краю */
+    padding: 0 20px;
+    /* відступи для абзаців */
+}
+
+ul {
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 20px;
+    /* відступи для списку */
+}
+
+ul li {
+    margin-bottom: 8px;
+}
